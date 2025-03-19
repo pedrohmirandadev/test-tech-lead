@@ -23,7 +23,7 @@ para garantir que apenas usuários autenticados possam acessar os recursos da AP
 ## Observabilidade
 
 Para monitorar o desempenho e o comportamento das APIs, serão utilizadas ferramentas como o Amazon CloudWatch e como uma maneira mais simples
-de monitorar adicionei o winston para criação de logs e um healthy check.
+de monitorar adicionei o winston para criação de logs e um health check.
 
 ## Adicionais
 
@@ -31,7 +31,7 @@ Adicionei o docker-compose para facilitar o desenvolvimento e o deploy.
 Para validações nas rotas utilizei o class-validator.
 
 Para documentação adicionei o Swagger, caso queira acessar o endpoint /api.
-Para o Healthy check apenas acessar o endpoint /health.
+Para o Health check apenas acessar o endpoint /health.
 
 Também adicionei testes unitários para a feature implementada.
 
