@@ -40,6 +40,18 @@ acabou não dando tempo de fazer os dois.
 
 Fiz os comentários abaixos em inglês afim de seguir o padrão de desenvolvimento em inglês, portanto nem ali nem no código haverá inglês.
 
+## Enviroment
+Create .env file and add the following variables
+
+```bash
+# database (example)
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=postgres
+DB_DATABASE=postgres
+```
+
 ## Run With Docker (Other steps are not necessary if running this one)
 ```bash
 # run docker-compose
