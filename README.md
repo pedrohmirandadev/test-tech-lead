@@ -38,11 +38,14 @@ Também adicionei testes unitários para a feature implementada.
 Faltou apenas implementar o frontend e mensageria. Tive alguns problemas de saúde onde precisei ir algumas vezes no hospital por isso, 
 acabou não dando tempo de fazer os dois.
 
+Fiz os comentários abaixos em inglês afim de seguir o padrão de desenvolvimento em inglês, portanto nem ali nem no código haverá inglês.
+
 ## Run With Docker (Other steps are not necessary if running this one)
 ```bash
 # run docker-compose
 $ docker-compose up --build
 
+# run migration
 $ yarn db:migrate
 
 ```
@@ -50,6 +53,7 @@ $ yarn db:migrate
 ## Project setup
 
 ```bash
+# install dependencies
 $ yarn
 ```
 
